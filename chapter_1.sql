@@ -1,5 +1,6 @@
 CREATE DATABASE gregs_list;
 USE gregs_list;
+
 CREATE TABLE doughnut_list(
 doughnut_name VARCHAR(10),
 doughnut_type VARCHAR(6)
@@ -31,6 +32,8 @@ status VARCHAR(20),
 interests VARCHAR(100),
 seeking VARCHAR(100)
 );
+
+DESC my_contacts;
 
 INSERT INTO my_contacts(
 last_name,first_name,email,gender,birthday,profession,location,status,interests,seeking)
