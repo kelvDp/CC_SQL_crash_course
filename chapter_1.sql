@@ -50,4 +50,3 @@ VALUES(
 );
 
 DROP TABLE doughnut_list;
-
